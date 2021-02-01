@@ -36,3 +36,5 @@ The information for the article is put at the top and seperated from the body
 of the article by a `---` or a `___` (take your pick).
 
 The rest of the body is just markdown. Sprecher will compile it into html on the fly automatically.
+
+Put it in `/articles` with the extension of `.md` and you'll be able to access it from the homescreen or from `/articles/{NAME}` (you don't need to provide the .md extension in the url).
