@@ -1,0 +1,16 @@
+// 1. Your custom variables and variable overwrites.
+$global-color: white;
+$global-background: #1e2334;
+$card-default-background: #2D344E;
+$global-medium-box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+$global-emphasis-color: #F4FAFF !default;
+
+// 2. Import default variables and available mixins.
+@import "scss/variables-theme.scss";
+@import "scss/mixins-theme.scss";
+
+// 3. Your custom mixin overwrites.
+@mixin hook-card() { color: #000; }
+
+// 4. Import UIkit.
+@import "scss/uikit-theme.scss";

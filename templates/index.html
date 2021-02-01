@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="/css/site.css">
+  <link rel="stylesheet" href="/css/gradients.css">
+  <script src="/js/uikit.min.js"></script>
+  <script src="/js/uikit-icons.min.js"></script>
+  <title>Sprecher</title>
+</head>
+<body>
+  <nav class="uk-navbar-container uk-navbar-transparent gradient" data-uk-sticky uk-navbar>
+    <div class="uk-navbar-left">
+      <a class="uk-navbar-item uk-logo" href="/">Sprecher</a>
+    </div>
+    <div class="uk-navbar-center">
+      <input class="search uk-visible@s" placeholder="Search"></input>
+    </div>
+    <div class="uk-navbar-right">
+      <a href="" class="uk-margin-right" uk-icon="icon: github; ratio: 1.5;"></a>
+      <a href="" class="uk-margin-right" uk-icon="icon: cog; ratio: 1.5;"></a>
+    </div>
+  </nav>
+  <div class="uk-padding">
+    {% block content %}
+    {% endblock %}
+  </div>
+</div>
+</body>
+</html>
+

@@ -1,0 +1,12 @@
+[package]
+name = "sprecher"
+version = "0.1.0"
+authors = ["curlpipe <11898833+curlpipe@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "3.3.2"
+askama = "0.10.5"
+comrak = "0.9.0"
